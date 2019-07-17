@@ -1,7 +1,5 @@
 package com.example.sweater.controller;
 
-import org.springframework.validation.FieldError;
-
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 

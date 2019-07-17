@@ -25,7 +25,7 @@ public class Message {
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "user_id")
-    User author;
+    private User author;
 
     public Message() {
     }
